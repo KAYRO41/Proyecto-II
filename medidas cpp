@@ -1,0 +1,48 @@
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+
+using namespace std;
+int main(int argc, char const *argv[]){
+	
+	//algoritmo para calcular mediada que sean seleccionadas por el usuario
+	int a,x;
+    
+printf ("tomar en cuenta que es en centimetros, ")
+cout << "escribe el numero";
+	cin >> a
+	x = 0;
+	while x < > 6 
+	    cout <<"ingrese una opcion:";
+	    cout <<"1 = metros: ";
+	    cout <<"2 = yarda: ";
+	    cout <<"3 = varas: ";
+	    cout <<"4 = Pulgadas: ";
+	    cout <<"5 = pies: ";
+		cout <<"6 = salir: ";
+	     cin >> x 
+
+        switch (x)
+        {
+        case   cout <<"los metros son = " :
+            a/100
+            break;
+         case   cout <<"las yardas son = " :
+            a*91.44
+            break;
+         case   cout <<"las varas son = " :
+            a*0.001988387815159
+            break;
+        case   cout <<"las pulgadas son = " :
+            a*0.393701
+            break;
+        case   cout <<"los pies son = " :
+            a*0.0328084
+            break;
+        default:
+            cout << "un curso de lenguaje "
+            break;
+        }
+        
+        return 0;
+}
